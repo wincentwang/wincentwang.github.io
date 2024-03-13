@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+    <head>
+		
+        <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="description" content="Just write article which l have learned technology!">
+        <link rel="shortcut icon" href="/assets/avatars.png"/>
+        <link rel="canonical" href="http://wincent.wang/">
+        <link rel="alternate" type="application/rss+xml" title="Wincent" href="">
+        <title>Hexo with HexoClient | Wincent&#39;s Blog</title>
+        <meta name="description" content="{{meta_description}}">
+
+        <link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="/wincentwang.github.io/styles/crisp.css">
+        <meta name="HandheldFriendly" content="True" />
+        <meta name="MobileOptimized" content="320" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+    <!-- hexo injector head_end start -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hexo-math@4.0.0/dist/style.css">
+<!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.3.0"></head>
+    
+		<body class="post-template">
+	
+
+        <header id="header">
+            <a id="logo" href="/wincentwang.github.io/"><img src="/assets/avatars.png" alt="Wincent's Blog" /></a>
+            <h1><a href="/wincentwang.github.io/">Wincent</a></h1>
+            <p>Code the world !</p>
+            <div id="follow-icons">
+          <a target="_blank" rel="noopener" href="http://github.com/https://github.com/wincentwang"><i class="fa fa-github-square fa-2x"></i></a>
+          </div>
+<h6><a href="/wincentwang.github.io/about">About</a></h6>
+        </header>
+
+        <main id="content">
+        
+
+<article class="post">
+  一月 8, 2020
+  
+
+  <h1 class="post-title">Hexo with HexoClient</h1>
+  <section class="post-content article-entry">
+    <h3 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h3><h5 id="1-1-Apply-Github-Account"><a href="#1-1-Apply-Github-Account" class="headerlink" title="1.1 Apply Github Account"></a>1.1 Apply Github Account</h5><p><a target="_blank" rel="noopener" href="https://github.com">Git</a></p>
+<ul>
+<li>Create a repositories named your_username.github.io</li>
+<li>set your github like page</li>
+<li>download a theme which you like or you can custome by yourself </li>
+</ul>
+<h5 id="1-2-Install-Nodejs-amp-Npm"><a href="#1-2-Install-Nodejs-amp-Npm" class="headerlink" title="1.2 Install Nodejs &amp; Npm"></a>1.2 Install Nodejs &amp; Npm</h5><p><a target="_blank" rel="noopener" href="http://nodejs.cn/">Nodejs</a></p>
+<h5 id="1-3-Install-Hexo"><a href="#1-3-Install-Hexo" class="headerlink" title="1.3 Install Hexo"></a>1.3 Install Hexo</h5><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo</span><br><span class="line">hexo init </span><br><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
+<h4 id="1-4-Apply-Domain-with-CNAME"><a href="#1-4-Apply-Domain-with-CNAME" class="headerlink" title="1.4 Apply Domain with CNAME"></a>1.4 Apply Domain with CNAME</h4><ul>
+<li><p><a target="_blank" rel="noopener" href="https://cloud.tencent.com/">Tencent Cloud</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.aliyun.com/">Ali Cloud</a></p>
+</li>
+</ul>
+<h3 id="Hexo-Client"><a href="#Hexo-Client" class="headerlink" title="Hexo Client"></a>Hexo Client</h3><p><a target="_blank" rel="noopener" href="https://github.com/gaoyoubo/hexo-client">Hexo Client Github</a></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">git clone https://github.com/gaoyoubo/hexo-client/releases</span><br><span class="line"># install dependencies</span><br><span class="line">npm install</span><br><span class="line"># dev</span><br><span class="line">npm run electron:serve</span><br><span class="line"># build electron application for production</span><br><span class="line">npm run electron:build</span><br></pre></td></tr></table></figure>
+
+  </section>
+  <footer class="post-footer">
+    <!--
+    <section class="author">
+      <h4>Wincent</h4>
+      <p></p>
+    </section>
+    -->
+  </footer>
+</article>
+
+<nav class="pagination" role="pagination">
+    
+    <a class="newer-posts" href="/wincentwang.github.io/2020/02/28/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95%E5%AF%B9%E6%AF%94%E5%92%8C%E4%BB%A3%E7%A0%81%E5%AE%9E%E7%8E%B0/">
+        <!--← prev -->← 排序算法对比和代码实现
+    </a>
+    
+    <span class="page-number">•</span>
+    
+    <a class="older-posts" href="/wincentwang.github.io/2018/03/12/%E9%80%9A%E8%BF%87You-Get%E4%B8%8B%E8%BD%BD%E7%99%BE%E5%AE%B6%E8%AE%B2%E5%9D%9B%E8%A7%86%E9%A2%91%E5%AE%9E%E8%B7%B5/">
+      通过You-Get下载百家讲坛视频实践 →  <!--next → --> 
+    </a>
+    
+</nav>
+
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+    "HTML-CSS": { 
+        preferredFont: "TeX", 
+        availableFonts: ["STIX","TeX"], 
+        linebreaks: { automatic:true }, 
+        EqnChunk: (MathJax.Hub.Browser.isMobile ? 10 : 50) 
+    },
+    tex2jax: { 
+        inlineMath: [ ["$", "$"], ["\\(","\\)"] ], 
+        processEscapes: true, 
+        ignoreClass: "tex2jax_ignore|dno",
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    },
+    TeX: {  
+        equationNumbers: { autoNumber: "AMS" },
+        noUndefined: { attributes: { mathcolor: "red", mathbackground: "#FFEEEE", mathsize: "90%" } }, 
+        Macros: { href: "{}" } 
+    },
+    messageStyle: "none"
+    }); 
+</script>
+<!-- 给MathJax元素添加has-jax class -->
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+        </main>
+        <footer id="footer">
+            <section id="footer-message">&copy; 2024 Wincent. All rights reserved. Powered by <a href="http://wincent.wang" target="_blank">Wincent</a></section>
+        </footer>
+    </body>
+</html>
+
+
